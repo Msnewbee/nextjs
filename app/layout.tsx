@@ -1,4 +1,4 @@
-import "./globals.css"; // Perbarui path agar sesuai dengan lokasi file
+import "./globals.css"; // Path sudah benar karena ada di app/
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
