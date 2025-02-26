@@ -1,11 +1,12 @@
+// components/Navbar.tsx
 import Link from 'next/link';
 
 export default function Navbar() {
     return (
         <nav>
-            <Link href="/loby">Loby</Link>
-            <Link href="/vidio">Vidio</Link>
-            <Link href="/kontak">Kontak</Link>
+            <Link href="/">Home</Link>
+            <Link href="/videos">Videos</Link>
+            <Link href="/contact">Contact</Link>
         </nav>
     );
 }
