@@ -1,4 +1,5 @@
-export default function Header({ title = "Selamat Datang di iClik bos!" }: { title?: string }) {
+// components/Header.tsx
+export default function Header({ title = "Selamat Datang di iClik Bos!" }) {
     return (
         <header>
             <h1>{title}</h1>
