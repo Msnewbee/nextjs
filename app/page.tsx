@@ -1,8 +1,8 @@
 'use client';
 import { useState } from 'react';
-import Header from '../components/Header';
-import Navbar from '../components/Navbar';
-import Video from '../components/Video';
+import Header from './components/Header';
+import Navbar from './components/Navbar';
+import Video from './components/Video';
 
 export default function Home() {
     const [activeTab, setActiveTab] = useState('loby');
