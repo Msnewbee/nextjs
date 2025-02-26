@@ -6,14 +6,14 @@ body {
 }
 
 header, footer {
-    background: #333;
+    background-color: #333;
     color: #fff;
     padding: 20px;
     text-align: center;
 }
 
 nav {
-    background: #444;
+    background-color: #444;
     padding: 10px;
     text-align: center;
 }
@@ -38,7 +38,7 @@ nav a:hover {
 .content-box {
     background: #fff;
     padding: 20px;
-    box-shadow: 0 0 10px rgba(0,0,0,.1);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     border-radius: 8px;
     margin-bottom: 20px;
     display: none;
@@ -63,7 +63,7 @@ button {
     border: none;
     border-radius: 5px;
     background-color: #f0f0f0;
-    transition: background-color .3s ease, transform .2s ease;
+    transition: background-color 0.3s ease, transform 0.2s ease;
 }
 
 button:hover {
@@ -99,15 +99,9 @@ button:disabled {
     }
     .container {
         max-width: 100%;
-    }
-    button.like-btn, button.dislike-btn {
-        padding: 8px 16px;
-        font-size: 14px;
-    }
-    .content-box {
         padding: 10px;
     }
-    h3 {
-        font-size: 18px;
+    button {
+        width: 100%;
     }
 }
