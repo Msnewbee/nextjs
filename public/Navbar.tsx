@@ -1,9 +1,11 @@
+import Link from 'next/link';
+
 export default function Navbar() {
     return (
         <nav>
-            <a href="/loby">Loby</a>
-            <a href="/vidio">Vidio</a>
-            <a href="/kontak">Kontak</a>
+            <Link href="/loby">Loby</Link>
+            <Link href="/vidio">Vidio</Link>
+            <Link href="/kontak">Kontak</Link>
         </nav>
     );
 }
